@@ -15,7 +15,6 @@ export const authOptions: NextAuthOptions = {
       },
     }),
   ],
-  // Agrega el secreto aquí
   secret: process.env.NEXTAUTH_SECRET,
 };
 
